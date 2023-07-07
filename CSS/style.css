@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    background-image:
+    url(../images/pic.png);
+    background-size: cover;
+    width: 100vw ;
+    height: 85vh ;
+    text-align: center;
+
+}
+
+.logo>img{
+   
+    opacity: 0.5;
+}
+.he{
+ list-style-type: none;
+ display: flex;
+justify-content: center;
+}
+nav{
+    padding-top: 10px;
+}
+li{
+    padding: 10px; 
+    color: white;
+    padding-top: 10px;
+}
+a {
+    padding: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.a1{
+   color: white;
+    font-weight: 500;
+}
+.sm{
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 0px;
+   
+}
+.a2{padding: 27px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+background-color: aqua;
+    border-radius: 3px;
+    color: black;
+      font-size: 15px;
+}
+.b1{
+    color: #FFD300;
+    
+}
+.b2{
+    color: black;
+}
+.main{
+color: white;
+font-weight: 800;
+font-size: 35px;
+text-align: justify;
+margin-left: 22%;
+margin-top: 23px;
+
+}
+.secondary{
+    color: white;
+   text-align: justify;
+    margin-left: 22%;
+    margin-top: 15px;
+    font-size: 16px;
+   
+}
+button{
+    background-color: #FFD300;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    margin-right: 43%;
+    margin-top: 40px;
+    margin-bottom: 2%;
+
+}
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+.card1{
+     background-image: url(../images/fon-top\ 2.png);
+     background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+     background-size: 100% ;
+
+    margin-top: 14px;
+    
+    padding: 35px 20px 25px 20px;
+    color: black;
+    border-radius: 4px;
+}
+
+.topic1{
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 20px; 
+    padding-bottom: 15px;     
+}
+.topic1::before{
+    content: "";
+    position: absolute;
+    bottom: 130px;
+    left: 5;
+    width: 45px;
+    height: 2px;
+    background-color: black;
+}
+.sud{
+    font-size: 16px ;
+}
+.card2{
+    background-color: #FFD300;
+    padding: 40px 30px 15px 30px;
+    border-radius: 4px;
+    margin-top: 14px;
+    margin-left: 11px;
+
+}
+.sedan{
+    width: 70px;
+display: block;
+}
+.pr{
+   color: black;
+    text-align: left;
+    font-size: 15px;
+    background-color: rgb(83, 68, 7, 0.2);
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.topic2{
+    color: black ;
+}
